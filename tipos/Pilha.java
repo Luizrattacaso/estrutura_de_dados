@@ -10,6 +10,7 @@ public class Pilha {
         onde o ultimo site será o topo da nossa pilha
 
         Funções
+
         - stack.empty() ---> checa se a pilha esta vazia
         - stack.push(name) ---> A função push adiciona itens na nossa função
         - stack.peek() ---> A função peek retorna o topo da pilha
@@ -20,7 +21,9 @@ public class Pilha {
 
         */
 
+        //exemplo de uso
         Scanner scanner = new Scanner(System.in);
+
         Stack<String> stack = new Stack<String>(); //cria um objeto do tipo Stack que suporta Strings
         Stack<String> stack2 = new Stack<String>();
 

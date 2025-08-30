@@ -1,8 +1,6 @@
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
 
 public class Fila {
     public static void main(String[] args){
@@ -26,8 +24,7 @@ public class Fila {
     - queue.size() ---> Length da fila
 
     */
-
-
+    
    //exemplo de uso
 
    Scanner scanner = new Scanner(System.in);
