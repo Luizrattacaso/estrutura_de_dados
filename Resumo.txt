@@ -1,0 +1,24 @@
+Estrutura de dados
+|
+| --> método de organizar e armazenar dados numa memória de computador para que possam ser usados
+    de forma eficiente e otimizada. Essencial para a computação, ela define como as informações se 
+    relacionam, facilitando operações como a inserção, busca e remoção de elementos e aumentando a
+    performance de algoritmos e programas
+
+Tipos de estrutura de dados:
+
+- Array
+- Linked list
+- Stack(pilha)
+- Queue(fila)
+- Hash tables(tabelas hash)
+- Tree (árvore binária)
+- Graphs
+
+Classificações:
+
+- Dinâmicas: Têm a capacidade de expandir sua memória durante a execução do programa.
+- Estáticas: Possuem um tamanho ou capacidade de memória pré-definida e fixa.
+
+- Homogêneas: Armazenam dados do mesmo tipo em sua composição.
+- Heterogêneas: Podem conter dados de diversos tipos na mesma estrutura.
