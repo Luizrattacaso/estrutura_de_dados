@@ -72,6 +72,7 @@ public class Lista_encadeada {
         System.out.printf("%n%s ---> linked list = fila", lista2);
         
         lista2.clear();
+        
         //exemplo de uso
         System.out.println("%nfila de prioridade%n");
 

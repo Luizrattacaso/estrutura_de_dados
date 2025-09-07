@@ -38,21 +38,22 @@ public class Pilha {
         while (!response.equalsIgnoreCase("q")) {
             System.out.printf("check your history. Select%n- r to return page%n- n to next page%n- q to quit the history%nResponse: ");
             response = scanner.nextLine();
-
+            System.out.println();
+            
             if (response.equalsIgnoreCase("r")){
                 if (stack.isEmpty()){
-                    System.out.println("this is the latest page");
+                    System.out.printf("%nthis is the latest page");
                 }
                 stack2.push(stack.pop());
-                System.out.printf("Actual page: %s", stack.peek());
-                System.out.println("%n");
+                System.out.printf("%nActual page: %s%n", stack.peek());
+
             } else if (response.equalsIgnoreCase("n")){
                 if (stack.isEmpty()){
-                    System.out.println("this is the most fresh page");
+                    System.out.printf("%nthis is the most fresh page");
                 }
                 stack.push(stack2.pop());
-                System.out.printf("Actual page: %s", stack.peek());
-                System.out.println("%n");
+                System.out.printf("%nActual page: %s%n", stack.peek());
+
             } else {
                 System.out.println("couldn't understand your response");
                 break;
