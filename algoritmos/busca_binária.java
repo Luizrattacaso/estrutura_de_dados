@@ -1,6 +1,6 @@
 package algoritmos;
 
-public class Busca_binaria {
+public class busca_binária {
     public static void main(String[] args) {
         /* A busca binária é um algoritmo eficiente para encontrar um elemento em uma lista ordenada. 
         Ela funciona dividindo repetidamente o intervalo de busca pela metade, 
